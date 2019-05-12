@@ -1,0 +1,27 @@
+.app {
+  text-align: center;
+}
+
+.settings {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.size,
+.domains {
+  margin-right: 40px;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.divSizes {
+  line-height: 3;
+}
+
+.domainCount {
+  padding: 10px;
+}

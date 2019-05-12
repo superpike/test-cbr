@@ -1,0 +1,60 @@
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    display: block;
+    padding: 10px;
+    line-height: 1;
+    border-radius: 5px;
+}
+
+.Middle {
+    margin: 10px auto;
+}
+
+.menuButton {
+    height: 100%;
+}
+
+.Button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.Main {
+    color: #D9E2EC;    
+    background-color: #7069FA;
+}
+
+.Main:hover {
+    transform: translate(0,-1px);
+}
+
+.Main:active {
+    transform: translate(0,0);
+}
+
+.BorderOnly {
+    border: 2px solid #7069FA;
+    color: #7069FA;
+    background-color: #fff;
+}
+
+.Inverted {
+    color: #7069FA;
+}
+
+.Underline {
+    text-decoration: underline;
+}
+
+.Big {
+    padding: 10px 100px;
+}
+
+.Medium {
+    padding: 10px 50px;
+}
